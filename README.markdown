@@ -16,3 +16,16 @@ operations, but that potentially eliminates some of its power.
 XMPP also provides the ability to subscribe to event notifications when items
 are published, updated, or retracted. Hooks could be built into ARes models so
 that applications can listen and respond to such notifications.
+
+## Getting Started
+
+Install dependencies:
+
+    $ sudo gem install mojodna-switchboard -s http://gems.github.com
+    $ git clone git://github.com/mojodna/mars.git
+
+Configure and start up [Mars](http://github.com/mojodna/mars "Mars").
+
+Run the test script (modify it to try out different functionality):
+
+    $ script/runner test.rb
