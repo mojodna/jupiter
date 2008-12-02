@@ -4,7 +4,8 @@ Jupiter is a test bed for ActiveResource over XMPP using Switchboard and a
 modified version of ARes in the _activeresource-xmpp_ branch of
 `mojodna/rails` (forked from Rails 2.2.2).
 
-See `test.rb` for sample usage.
+See `test.rb` for sample usage. (It uses `app/models/post.rb` as the resource
+descriptor.)
 
 ActiveResource is extremely tied to HTTP (e.g. use of Content-Length headers
 and HTTP verbs), but there's no reason that it shouldn't work over a separate
