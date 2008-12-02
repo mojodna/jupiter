@@ -24,6 +24,10 @@ Install dependencies:
     $ sudo gem install mojodna-switchboard -s http://gems.github.com
     $ git clone git://github.com/mojodna/mars.git
 
+Initialize submodules:
+
+    $ git submodule update --init
+
 Configure and start up [Mars](http://github.com/mojodna/mars "Mars").
 
 Run the test script (modify it to try out different functionality):
